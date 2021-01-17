@@ -17,8 +17,8 @@ for(var c = 0; c < 24; c++){
     for(var i = 0; i < 10; i++){
         sheep = sheeps[i] * 1.2;
         if(sheep >= 50){
-            remain = sheep - 50;
-            storage += remain + 40;
+            remain = sheep - 10;
+            storage += remain;
             sheeps[i] = 10;
         } 
         else{
